@@ -9,7 +9,7 @@ public class UserController {
     @RequestMapping("/user")
     public String user(){
 
-        return "/user/userinfo.html";  //go to static folder and look over there
+        return "/user/userinfo.html";  //go to folder static and look overthere
     }
 
 }
